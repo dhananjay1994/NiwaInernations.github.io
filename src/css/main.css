@@ -1,4 +1,10 @@
 main{
-  background-image: linear-gradient(white,pink,  );
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  z-index: 1;
   
+}
+*{
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
 }
