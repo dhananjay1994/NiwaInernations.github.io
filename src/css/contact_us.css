@@ -1,0 +1,33 @@
+/* ._get_in_touch{
+    background-color: slategrey;
+} */
+
+.touch_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+.get-in-touch{
+    font-family: sans-serif;
+    color: blueviolet;
+    text-align: center;   
+}
+._touch{
+    padding: 2%;
+    width: 40%;
+}
+/* ._touch h3{
+    text-align: center;
+} */
+
+.get_touched{
+    padding: 2%;
+    width: 40%;
+}
+/* .get_touched h3{
+    text-align: center;
+} */
+address{
+    font-size:  1.2vw;
+}

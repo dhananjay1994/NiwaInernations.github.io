@@ -24,60 +24,65 @@ header{
 .logo{
     padding-left: 3%;
     width: 14%;
+    /* background-color: red; */
     height: auto;
     position: relative;        
-    /* z-index: 1; */
+    z-index: 1;
 }
 .logo img{
   max-width: 100%;
   padding-top: 1vh;
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
   max-height: auto;  
   transition: transform 2s;  
-  transform: scale(1.2,1.2);
+  transform: scale(1.1,1.1);
 }
 .company_name{
     font-size: 3vw;
-    width:55%;
+    width:60%;
     height: auto;
     padding-left: 3%;
-    padding-top: 0.1vh;
+    padding-top: 1.5vh;
     /* padding-bottom: auto; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: midnightblue;
     /* text-shadow: 2px 2px 2px black;/ */
-    transition: transform 2s;
+    /* transition: transform 2s; */
 }
-.company_name:hover{
+/* .company_name:hover{
   transform: scale(1.1,1.1);
-}
+} */
 .contact_us{    
-    width: 25%;
-    height: auto;
-    
-    padding-right: 5%;
+    width: 13%;
+    height: auto;    
+    padding-right: 2%;
+    position: relative;
+    bottom: 0;
+    right: 0;
 }
 .contact_us h4{
   /* font: bold; */
-    font-size: 2vw;
-    /* padding-top: 1vh; */
+    font-size: 1.5vw;
+    padding-top: 5vh;
     font-family:  'Times New Roman', Times, serif;
     color: midnightblue;
     position: relative;
     text-align: center;
-    z-index: 1;
+    /* z-index: 1; */
 }
 ._social_links{
     display: flex;
     flex-direction: row;
+    margin-top: 0%;
+    margin-bottom: 0%;
     justify-content: space-around;
 }
 .social_icon{
     /* display: flex;
     justify-content: space-around; */
     padding: 2px;
-    max-width: 4vw;
-    max-height: 5vh;
+    max-width: 2vw;
+    max-height: 3vh;
     transition: transform 1s;
     z-index: 1;
 
@@ -86,6 +91,7 @@ header{
 .social_icon:hover{
     transform: scale(1.5,1.5  );
 }
+
 
 .lowerHeader{
   /* background-image: linear-gradient( grey,pink); */
@@ -114,6 +120,7 @@ nav ul  {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+    height: auto;
 }
 /* dropdown button */
 .dropdown {
@@ -158,3 +165,111 @@ nav ul li:hover .dropdown-content {
 color: midnightblue;
 text-decoration: none;
 }
+
+
+
+/* media query starts */
+
+@media screen and (max-width: 550px) {
+  .upperHeader{
+    /* background:linear-gradient(pink , white); */
+    background-color:#fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+/* z-index: -1; */
+}
+
+.logo{
+  padding-left: 3%; 
+  width: 14%;
+  height: auto;
+  position: relative;
+  /* background-color: red;         */
+  /* z-index: 1; */
+}
+
+.logo img{
+  max-width: 100%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  max-height: auto;  
+  transition: transform 2s;  
+  transform: scale(1.4,1.4);
+}
+
+.company_name{
+  font-size: 3vw;
+  width:57%;
+  height: auto;
+  padding-left: 6%;
+  padding-top: 0.2vh;
+  /* padding-bottom: auto; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: midnightblue;
+  /* text-shadow: 2px 2px 2px black;/ */
+  /* transition: transform 2s;  
+  transform: scale(1.2,1.2); */
+}
+/* .company_name:hover{
+  transform: scale(1.2,1.2);
+} */
+.contact_us{    
+  width: 15%;
+  height: auto;
+  
+  padding-right: 1%;
+}
+
+.contact_us h4{
+  /* font: bold; */
+    font-size: 2vw;
+    padding-top: 1vh;
+    font-family:  'Times New Roman', Times, serif;
+    color: midnightblue;
+    position: relative;
+    text-align: center;
+    /* z-index: 1; */
+}
+
+._social_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 0.2vh;
+}
+.social_icon{
+  /* display: flex;
+  justify-content: space-around; */
+  padding: 1px;
+  max-width: 3vw;
+  max-height: 4vh;
+  transition: transform 1s;
+  z-index: 1;
+
+  /* z-index: 1; */
+}
+.social_icon:hover{
+  transform: scale(1.1,1.1  );
+}
+
+.lowerHeader{
+  /* background-image: linear-gradient( grey,pink); */
+  background-color: #2697ed;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  /* margin-bottom: 0%; */
+}
+
+.lowerHeader nav ul li{
+
+    list-style-type:none;
+    font-size: 3vw;    
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+/* media query end  */
