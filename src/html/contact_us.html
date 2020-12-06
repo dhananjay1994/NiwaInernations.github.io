@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/header.css">
-  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/contact_us.css">
   <link rel="icon" href="../../assets/Imges/logos/niwa_new_logo_JN9_icon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,6 +17,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <title>Niwa International</title>
+ 
 </head>
 
 <body>
@@ -63,9 +65,9 @@
               <div class="dropdown-content">
 
                 <a href="../html/rice.html">Rice</a>
-                <a href="#">Pulses</a>
-                <a href="#">Pulp</a>
-                <a href="#">Fruits & vegetables</a>
+                <a href="./pulse_types.html">Pulses</a>
+                <a href="./pulp.html">Pulp</a>
+                <a href="./fruit_vegetables.html">Fruits & vegetables</a>
               </div>
             </div>
           </li>
@@ -80,13 +82,54 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main class="_get_in_touch">
+    <!-- <h1 class="get-in-touch"><strong>Contact us</strong> </h1> -->
+    <div class="touch_form">
+      <div class="_touch">
+        <h3><b>Contact Us</b></h3><br>
+        <address><i>
+          <strong>Abhijit Waman </strong> <br>
+          Phone:9503145069<br> 
+          Email:niwainternationals1@gmail.com<br> <br>         
+          <strong>Akshay Niphade  </strong> <br>
+          Phone:9503145069<br> 
+          Email:niwainternationals1@gmail.com   <br> <br>                                   
+          Visit us at:<br>
+          Niwa Internationals<br>
+          Flat No.R302, Shital Baug,<br>
+          Pune-Nashik road, Bhosari<br>
+          Pune- 411039, <br>
+          Maharashtra, India
+        </i>
+          </address>
+      </div>
+      <div class="get_touched">
+        <h3><b>Get in Touch</b></h3>         
+          <form method="post">
+            <label for="uname">Name</label><br>
+            <input type="text" id="uname" ><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email"><br><br>            
+            <label for="tel">Phone</label><br>
+            <input type="tel" id="tel"><br><br>
+            <label for="query">Message</label><br>
+            <textarea id="query"></textarea><br><br>
+            <input type="button" value="Submit" onclick="sendEmail()"/>
+          </form>  
 
+      </div>
+    </div>
+   
   </main>
-  <footer>
-    <h5 class="footerHeader">&copy; 2020 NIWA INTERNATIONALS LLB</h5>
-  </footer>
+  <!-- Footer -->
+  <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#" style="color: azure;"> NiwaInternationals.com</a>
+    </div>
+    <!-- Copyright -->
 
+  </footer>
 
 </body>
 
