@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <title>Niwa International</title>
 </head>
-
 <body>
   <header>
     <div class="upperHeader">
@@ -51,7 +49,6 @@
               <a href="./index.html" class="navAncher">Home</a>
             </div>
           </li>
-
           <li>
             <div class="dropdown">
               <a href="./src/html/about_us.html" class="navAncher">About Us</a>
@@ -61,11 +58,10 @@
             <div class="dropdown">
               <p class="dropbtn">Product</p>
               <div class="dropdown-content">
-
                 <a href="./src/html/rice.html">Rice</a>
-                <a href="#">Pulses</a>
-                <a href="#">Pulp</a>
-                <a href="#">Fruits & vegetables</a>
+                <a href="./src/html/pulse_types.html">Pulses</a>
+                <a href="./src/html/pulp.html">Pulp</a>
+                <a href="./src/html/fruit_vegetables.html">Fruits & vegetables</a>
               </div>
             </div>
           </li>
@@ -81,7 +77,6 @@
     </div>
   </header>
   <main>
-
     <div class="container" style="height: 30%;">
       <!-- <h2>Carousel Example</h2>   -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -91,25 +86,21 @@
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="margin:0%">
           <div class="item active" style="height: 15%;">
-            <a href="#"><img src="./assets/Imges/front_images/fruits.jpg" alt="fruit_juice"
-                style="width:100%; height: 70vh; border: 2px solid pink;"></a>
+            <a href="./src/html/rice.html"><img src="./assets/Imges/front_images/mix_fruits.png" alt="fruit_juice"
+                style="width:100%; height: 85vh;border: 2px solid pink;"></a>
           </div>
-
           <div class="item">
-            <a href="#"><img src="./assets/Imges/front_images/mix_fruits.png" alt="mix_fruits"
-                style="width:100%; height: 70vh;border: 2px solid pink; "></a>
+            <a href="./src/html/pulse_types.html"><img src="./assets/Imges/front_images/fruits.jpg" alt="mix_fruits"
+                style="width:100%; height: 85vh;border: 2px solid pink; "></a>
           </div>
-
           <div class="item">
-            <a href="#"><img src="./assets/Imges/front_images/smothies.jpg" alt="smothies"
-                style="width:100%;height: 70vh;border: 2px solid pink;"></a>
+            <a href="./src/html/pulp.html"><img src="./assets/Imges/front_images/smothies.jpg" alt="smothies"
+                style="width:100%; height: 85vh;border: 2px solid pink;"></a>
           </div>
         </div>
-
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -122,11 +113,23 @@
       </div>
     </div>
   </main>
-  <footer>
-    <h5 class="footerHeader">&copy; 2020 NIWA INTERNATIONALS LLB</h5>
-  </footer>
-
-
+  <div>
+    <h1 class="welcome">Welcome</h1>
+    <p class="textContent">&nbsp; &nbsp;&nbsp;Niwa international Pune, India. Introduced oursleves as one of the 
+      Leading exporters of various Agri based commodities like Rice,Pulses,
+      Fruit-Pulp,Fresh Fruits and Vegitable. We commit to deliver qulity agro 
+      products to customer accross the Globe. We are Merchant Exporter with
+      trust full vendor. Our main movtive is customers satisfication & we are
+      wiling to this commited.</p>
+  </div>
+  <!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">©2020 Copyright:
+    <a href="#" style="color: azure;"> NiwaInternationals.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
-
 </html>
