@@ -18,7 +18,7 @@
 .rice_img{
     margin:2%;
     width: 30%;
-    height: 60vh;
+    height: 70vh;
 }
 .rice_product_info{
     width: 66%;
@@ -30,6 +30,7 @@
     border: red solid 2px; 
     width: 30vw;   
     height: 40vh;
+    margin-top: 15%;
 }
 .rice_product_description h4{
     text-align: center;
