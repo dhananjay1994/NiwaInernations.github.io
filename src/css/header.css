@@ -23,7 +23,7 @@ header{
 }
 .logo{
     padding-left: 3%;
-    width: 14%;
+    width: 8%;
     /* background-color: red; */
     height: auto;
     position: relative;        
@@ -32,7 +32,7 @@ header{
 .logo img{
   max-width: 100%;
   padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
   max-height: auto;  
   transition: transform 2s;  
   transform: scale(1.1,1.1);
@@ -193,7 +193,7 @@ text-decoration: none;
 
 .logo{
   padding-left: 3%; 
-  width: 14%;
+  width: 10%;
   height: auto;
   position: relative;
   /* background-color: red;         */
@@ -214,7 +214,7 @@ text-decoration: none;
   width:57%;
   height: auto;
   padding-left: 6%;
-  padding-top: 0.2vh;
+  padding-top: 1vh;
   /* padding-bottom: auto; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: midnightblue;
@@ -283,3 +283,6 @@ text-decoration: none;
 }
 }
 /* media query end  */
+
+
+

@@ -14,13 +14,8 @@
 }
 .hr_contet_main{
     border-top: 2px solid black;
-    margin-left: 26%;
-    margin-right: 26%;
-}
-.hr_contet-non{    
-    border-top: 2px solid black;
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .content-info{
     margin-top: 2%;
@@ -43,11 +38,11 @@
 .rice_product_info{
     width: 66%;
     height: auto;
-    height: 80vh;
+    height: 70vh;
     padding: 2%;
 }
 .rice_img img {
-    border: red solid 2px; 
+    border: rgb(39, 31, 32) solid 0.5px; 
     width: 30vw;   
     height: 40vh;
     margin-top: 15%;
@@ -57,8 +52,12 @@
 }
 table, th, td {
   border: 1px solid black;
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
 }
 th{
     width: 20%;
+}
+.rice_product_specification_pulp{
+    margin-top: 5%;
+    font-size: 1.3vw;
 }
