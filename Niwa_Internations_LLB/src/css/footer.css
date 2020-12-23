@@ -1,0 +1,22 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+footer{
+    height: auto;
+    background-color: darkslateblue;
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+}
+.footerHeader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    padding-top:3vh ;
+    padding-bottom: 3vh;
+    font-size: 1.5vw;    
+};
